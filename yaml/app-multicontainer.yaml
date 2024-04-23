@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Pod
 metadata:
   name: app-multicontainer
-  labels: 
+  labels:
     app: app-multicontainer
 spec:
   replicas: 3
