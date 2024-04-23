@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Pod
 metadata:
   name: app-readinessProbe
-spec:
+spec: 
   replicas: 1
   selector: 
     matchLabels:
