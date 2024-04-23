@@ -5,7 +5,7 @@ metadata:
 spec:
   schedule: "*/5 * * * *"
   jobTemplate:
-    spec:
+    spec: 
       template:
         spec:
           containers:
