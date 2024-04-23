@@ -11,5 +11,5 @@ This document shows examples of creating improvements made to a Kubernetes deplo
 | app-cronjob  | Create yaml file with name app-cronjob  | Cron job manifest | [app-cronjob.yaml](./yaml/app-cronjob.yaml) |
 | app-job | Create yaml file with name app-job | Job manifest | [app-job.yaml](./yaml/app-job.yaml) |
 | app-multicontainer | Create yaml file with name app-multicontainer | Multi container manifest  | [app-multicontainer.yaml](./yaml/app-multicontainer.yaml) |
-| app-resources  | Create yaml file with name app-resources | Resources and limits  | [app-livenessProbe.yaml](./yaml/app-livenessProbe.yaml) |
+| app-resources  | Create yaml file with name app-resources | Resources and limits  | [app-resources.yaml](./yaml/app-resources.yaml) |
 | app-secret-env             | Create yaml file with name app-secret-env | Secrets manifest  | [app-secret-env.yaml](./yaml/app-secret-env.yaml) |
