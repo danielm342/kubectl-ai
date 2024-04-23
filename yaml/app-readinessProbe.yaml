@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Pod
+metadata:
+  name: app-readinessProbe
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: app-readinessProbe
+  template:
+    metadata:
+      labels:
+        app: app-readinessProbe
+    spec:
+      containers:
+      - name: app
+        image: <IMAGE_NAME>
+        readinessProbe:
+          httpGet:
+            path: /healthz
+            port: 8080
+          initialDelaySeconds: 5
+          periodSeconds: 10
+          timeoutSeconds: 3
+          failureThreshold: 3
+        ports:
+        - containerPort: 8080
