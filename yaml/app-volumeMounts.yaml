@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: app
 spec:
-  containers:
+  containers: 
   - name: container
     image: image
     volumeMounts:

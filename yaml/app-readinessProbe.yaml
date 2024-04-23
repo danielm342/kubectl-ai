@@ -4,7 +4,7 @@ metadata:
   name: app-readinessProbe
 spec:
   replicas: 1
-  selector:
+  selector: 
     matchLabels:
       app: app-readinessProbe
   template:
